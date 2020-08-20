@@ -13,6 +13,6 @@ public class MailController {
 
     @GetMapping("/mail")
     public void send() {
-        mailService.send("asikpradhan@gmail.com", "Sending email using Gmail API", "Hello GMAIL world!");
+        mailService.send("reciever@gmail.com", "Sending email using Gmail API", "Hello GMAIL world!");
     }
 }
